@@ -1,0 +1,25 @@
+:root {
+  --primary-bg: #7b46f8;
+  --accent-color: #bdf522;
+  --text-color: #181c24;
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+}
+
+.section-accent {
+  background-color: var(--accent-color);
+}
+
+.btn-custom {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+}
+
+.card-custom {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
